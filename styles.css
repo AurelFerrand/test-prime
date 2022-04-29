@@ -1,0 +1,115 @@
+*,
+::before,
+::after {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+body {
+
+    background-color: rgba(219, 219, 219, 0.836);
+}
+
+.container {
+
+    margin-top: 50px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 50%;
+
+    height: 50%;
+
+    border: 1px solid;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+#button-0 {
+
+    background-color: #464646;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+}
+
+.selector {
+
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#personn {
+
+    margin-top: 20px;
+
+    font-size: 1.5rem;
+
+    background-color: rgb(196, 196, 196);
+
+    color: rgb(14, 14, 14);
+
+    width: 35%;
+}
+
+.colab {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+
+.type {
+
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+#msg {
+
+    font-size: 22px;
+
+    color: rgb(49, 49, 49);
+
+}

@@ -1,0 +1,16 @@
+{
+  "name": "test-prime",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node --experimental-json-modules script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-fetch": "^3.2.3"
+  }
+}
